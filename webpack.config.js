@@ -11,7 +11,7 @@ var provided = {
   "Pudding": "ether-pudding"
 };
 
-// Get all the compiled contracts for our environment.
+// Get all the compiled contracts for our environments.
 /*var contracts_directory = path.join("./", "environments", environment, "contracts");
 fs.readdirSync("./environments/" + environment + "/contracts").forEach(function(file) {
   if (path.basename(file).indexOf(".sol.js")) {
